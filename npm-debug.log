@@ -1,0 +1,256 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gitbook',
+1 verbose cli   '-g' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'gitbook', null ]
+7 verbose cache add spec gitbook
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'gitbook',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'gitbook',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed gitbook@*
+10 verbose addNamed "*" is a valid semver range for gitbook
+11 silly addNameRange { name: 'gitbook', range: '*', hasData: false }
+12 silly mapToRegistry name gitbook
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/gitbook
+16 verbose addNameRange registry:https://registry.npmjs.org/gitbook not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/gitbook
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 21:29:48
+20 verbose request id 6ee324f2d61c8cde
+21 verbose etag "1AW19PLCG6B2W5ZJT7YU9ZFOZ"
+22 http request GET https://registry.npmjs.org/gitbook
+23 http 304 https://registry.npmjs.org/gitbook
+24 silly get cb [ 304,
+24 silly get   { date: 'Wed, 30 Sep 2015 13:29:49 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"1AW19PLCG6B2W5ZJT7YU9ZFOZ"',
+24 silly get     age: '47',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-nrt6129-NRT',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1443619789.449913,VS0,VE1',
+24 silly get     vary: 'Accept' } ]
+25 verbose etag https://registry.npmjs.org/gitbook from cache
+26 verbose get saving gitbook to /Users/zlj/.npm/registry.npmjs.org/gitbook/.cache.json
+27 silly addNameRange number 2 { name: 'gitbook', range: '*', hasData: true }
+28 silly addNameRange versions [ 'gitbook',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.1.3',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.2.3',
+28 silly addNameRange     '0.2.4',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.3.2',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.4.2',
+28 silly addNameRange     '0.4.3',
+28 silly addNameRange     '0.4.4',
+28 silly addNameRange     '0.4.5',
+28 silly addNameRange     '0.4.6',
+28 silly addNameRange     '0.4.7',
+28 silly addNameRange     '0.4.8',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.5.1',
+28 silly addNameRange     '0.5.2',
+28 silly addNameRange     '0.5.3',
+28 silly addNameRange     '0.5.4',
+28 silly addNameRange     '0.5.5',
+28 silly addNameRange     '0.5.6',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.6.2',
+28 silly addNameRange     '0.6.3',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.3.1',
+28 silly addNameRange     '1.3.2',
+28 silly addNameRange     '1.3.3',
+28 silly addNameRange     '1.3.4',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.4.1',
+28 silly addNameRange     '1.4.2',
+28 silly addNameRange     '1.5.0',
+28 silly addNameRange     '2.0.0-alpha.1',
+28 silly addNameRange     '2.0.0-alpha.2',
+28 silly addNameRange     '2.0.0-alpha.3',
+28 silly addNameRange     '2.0.0-alpha.4',
+28 silly addNameRange     '2.0.0-alpha.5',
+28 silly addNameRange     '2.0.0-alpha.6',
+28 silly addNameRange     '2.0.0-alpha.7',
+28 silly addNameRange     '2.0.0-alpha.8',
+28 silly addNameRange     '2.0.0-alpha.9',
+28 silly addNameRange     '2.0.0-beta.1',
+28 silly addNameRange     '2.0.0-beta.2',
+28 silly addNameRange     '2.0.0-beta.3',
+28 silly addNameRange     '2.0.0-beta.4',
+28 silly addNameRange     '2.0.0-beta.5',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.0.1',
+28 silly addNameRange     '2.0.2',
+28 silly addNameRange     '2.0.3',
+28 silly addNameRange     '2.0.4',
+28 silly addNameRange     '2.1.0',
+28 silly addNameRange     '2.2.0',
+28 silly addNameRange     '2.3.0',
+28 silly addNameRange     '2.3.1',
+28 silly addNameRange     '2.3.2',
+28 silly addNameRange     '2.3.3',
+28 silly addNameRange     '2.4.0',
+28 silly addNameRange     '2.4.1',
+28 silly addNameRange     '2.4.2' ] ]
+29 silly addNamed gitbook@2.4.2
+30 verbose addNamed "2.4.2" is a plain semver version for gitbook
+31 silly cache afterAdd gitbook@2.4.2
+32 verbose afterAdd /Users/zlj/.npm/gitbook/2.4.2/package/package.json not in flight; writing
+33 verbose afterAdd /Users/zlj/.npm/gitbook/2.4.2/package/package.json written
+34 silly install resolved [ { name: 'gitbook',
+34 silly install resolved     version: '2.4.2',
+34 silly install resolved     homepage: 'https://www.gitbook.com',
+34 silly install resolved     description: 'Library and cmd utility to generate GitBooks',
+34 silly install resolved     main: 'lib/index.js',
+34 silly install resolved     dependencies:
+34 silly install resolved      { q: '1.0.1',
+34 silly install resolved        lunr: '0.5.12',
+34 silly install resolved        lodash: '3.10.1',
+34 silly install resolved        'graceful-fs': '3.0.5',
+34 silly install resolved        resolve: '0.6.3',
+34 silly install resolved        'fs-extra': '0.16.5',
+34 silly install resolved        'fstream-ignore': '1.0.2',
+34 silly install resolved        'gitbook-parsers': '0.8.2',
+34 silly install resolved        'gitbook-plugin-highlight': '1.0.3',
+34 silly install resolved        nunjucks: 'github:mozilla/nunjucks#dc89bf91611a2101731c2c06afcf5c32160b4dc9',
+34 silly install resolved        'nunjucks-autoescape': '1.0.0',
+34 silly install resolved        'nunjucks-filter': '1.0.0',
+34 silly install resolved        i18n: '0.5.0',
+34 silly install resolved        semver: '5.0.1',
+34 silly install resolved        npmi: '0.1.1',
+34 silly install resolved        cheerio: '0.19.0',
+34 silly install resolved        'gitbook-plugin-livereload': '0.0.1',
+34 silly install resolved        chokidar: '~1.0.5',
+34 silly install resolved        send: '0.2.0',
+34 silly install resolved        'tiny-lr': '0.1.5',
+34 silly install resolved        tmp: '0.0.24',
+34 silly install resolved        crc: '3.2.1',
+34 silly install resolved        'bash-color': '0.0.3',
+34 silly install resolved        URIjs: '1.14.1',
+34 silly install resolved        request: '2.51.0',
+34 silly install resolved        npm: '2.4.1',
+34 silly install resolved        'dom-serializer': '0.1.0',
+34 silly install resolved        'spawn-cmd': '0.0.2',
+34 silly install resolved        'escape-string-regexp': '1.0.3' },
+34 silly install resolved     devDependencies:
+34 silly install resolved      { mocha: '2.3.2',
+34 silly install resolved        should: '7.1.0',
+34 silly install resolved        grunt: '~0.4.2',
+34 silly install resolved        'grunt-cli': '0.1.11',
+34 silly install resolved        'grunt-contrib-copy': '0.5.0',
+34 silly install resolved        'grunt-contrib-less': '~0.5.0',
+34 silly install resolved        'grunt-contrib-requirejs': '0.4.1',
+34 silly install resolved        'grunt-bower-install-simple': '0.9.2' },
+34 silly install resolved     scripts: { test: 'mocha --reporter spec --timeout 15000' },
+34 silly install resolved     repository:
+34 silly install resolved      { type: 'git',
+34 silly install resolved        url: 'git+https://github.com/GitbookIO/gitbook.git' },
+34 silly install resolved     bin: { gitbook: './bin/gitbook.js' },
+34 silly install resolved     keywords: [ 'git', 'book', 'gitbook' ],
+34 silly install resolved     author: { name: 'FriendCode Inc.', email: 'contact@gitbook.com' },
+34 silly install resolved     license: 'Apache-2.0',
+34 silly install resolved     bugs: { url: 'https://github.com/GitbookIO/gitbook/issues' },
+34 silly install resolved     contributors: [ [Object], [Object] ],
+34 silly install resolved     gitHead: 'fdf4a48638c9ace88ff373fa3967cb65a1a84ef4',
+34 silly install resolved     _id: 'gitbook@2.4.2',
+34 silly install resolved     _shasum: 'dfaf13b0d7e20e36c8e21aa88df840eb1320c708',
+34 silly install resolved     _from: 'gitbook@*',
+34 silly install resolved     _npmVersion: '2.14.5',
+34 silly install resolved     _nodeVersion: '0.12.7',
+34 silly install resolved     _npmUser: { name: 'samypesse', email: 'samypesse@gmail.com' },
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: 'dfaf13b0d7e20e36c8e21aa88df840eb1320c708',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/gitbook/-/gitbook-2.4.2.tgz' },
+34 silly install resolved     maintainers: [ [Object], [Object] ],
+34 silly install resolved     directories: {},
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/gitbook/-/gitbook-2.4.2.tgz',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install gitbook@2.4.2 into /usr/local/lib
+36 info installOne gitbook@2.4.2
+37 verbose installOne of gitbook to /usr/local/lib not in flight; installing
+38 verbose lock using /Users/zlj/.npm/_locks/gitbook-cff0122b61afa1e1.lock for /usr/local/lib/node_modules/gitbook
+39 silly install write writing gitbook 2.4.2 to /usr/local/lib/node_modules/gitbook
+40 verbose unbuild lib/node_modules/gitbook
+41 silly gentlyRm /usr/local/lib/node_modules/gitbook is being purged from base /usr/local
+42 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/gitbook
+43 verbose tar unpack /Users/zlj/.npm/gitbook/2.4.2/package.tgz
+44 verbose tar unpacking to /usr/local/lib/node_modules/gitbook
+45 silly gentlyRm /usr/local/lib/node_modules/gitbook is being purged
+46 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/gitbook
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 error tar.unpack untar error /Users/zlj/.npm/gitbook/2.4.2/package.tgz
+49 verbose unlock done using /Users/zlj/.npm/_locks/gitbook-cff0122b61afa1e1.lock for /usr/local/lib/node_modules/gitbook
+50 verbose fstream_path /usr/local/lib/node_modules/gitbook
+51 verbose fstream_type Directory
+52 verbose fstream_class DirWriter
+53 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/gitbook'
+53 verbose stack     at Error (native)
+54 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+54 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+54 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+55 verbose cwd /Users/zlj/Documents/About me/wzzljpython
+56 error Darwin 15.0.0
+57 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "gitbook" "-g"
+58 error node v4.1.1
+59 error npm  v2.14.4
+60 error path /usr/local/lib/node_modules/gitbook
+61 error code EACCES
+62 error errno -13
+63 error syscall mkdir
+64 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/gitbook'
+64 error     at Error (native)
+64 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/gitbook']
+64 error   errno: -13,
+64 error   code: 'EACCES',
+64 error   syscall: 'mkdir',
+64 error   path: '/usr/local/lib/node_modules/gitbook',
+64 error   fstream_type: 'Directory',
+64 error   fstream_path: '/usr/local/lib/node_modules/gitbook',
+64 error   fstream_class: 'DirWriter',
+64 error   fstream_stack:
+64 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+64 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+64 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+65 error Please try running this command again as root/Administrator.
+66 verbose exit [ -13, true ]
+67 verbose unbuild lib/node_modules/gitbook
+68 silly gentlyRm /usr/local/lib/node_modules/gitbook is being purged from base /usr/local
+69 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/gitbook
